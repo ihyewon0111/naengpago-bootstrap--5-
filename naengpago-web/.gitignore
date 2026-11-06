@@ -1,0 +1,9 @@
+.env
+.env.*
+.vercel
+__pycache__/
+.ipynb_checkpoints/
+notebooks/mascot_candidates/
+notebooks/fridge_photos/
+.DS_Store
+Thumbs.db
