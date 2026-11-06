@@ -8,10 +8,10 @@ const DELIVERY_AVG = 15000; // 배달 1회 평균 비용 (예시 기준값)
 
 const MODES = {
   all:      { label: "전체 추천",   sub: "모든 요리",      emoji: "✨",   img: "",                      color: "var(--mode-all)",      chart: "#7c5cff" },
-  saving:   { label: "월급 전",     sub: "생존 모드",      emoji: "💸",   img: "img/mode_saving.png",   color: "var(--mode-saving)",   chart: "#ff7a45" },
-  chef:     { label: "오늘은 셰프", sub: "정성 요리 모드", emoji: "👨‍🍳", img: "img/mode_quick.png",    color: "var(--mode-chef)",     chart: "#f5b301" },
-  beginner: { label: "요리 초보",   sub: "간편 모드",      emoji: "🐣",   img: "img/mode_beginner.png", color: "var(--mode-beginner)", chart: "#2fb36d" },
-  dish:     { label: "설거지",      sub: "최소 모드",      emoji: "🧽",   img: "img/mode_dish.png",     color: "var(--mode-dish)",     chart: "#2f80ff" },
+  saving:   { label: "월급 전",     sub: "생존 모드",      emoji: "💸",   img: "mode_saving.png",   color: "var(--mode-saving)",   chart: "#ff7a45" },
+  chef:     { label: "오늘은 셰프", sub: "정성 요리 모드", emoji: "👨‍🍳", img: "mode_quick.png",    color: "var(--mode-chef)",     chart: "#f5b301" },
+  beginner: { label: "요리 초보",   sub: "간편 모드",      emoji: "🐣",   img: "mode_beginner.png", color: "var(--mode-beginner)", chart: "#2fb36d" },
+  dish:     { label: "설거지",      sub: "최소 모드",      emoji: "🧽",   img: "mode_dish.png",     color: "var(--mode-dish)",     chart: "#2f80ff" },
 };
 const MODE_ORDER = ["all", "saving", "chef", "beginner", "dish"];
 
@@ -189,7 +189,7 @@ async function handlePhoto(file) {
 }
 async function demoPhoto() {
   try {
-    const demo = await (await fetch("data/demo_vision.json")).json();
+    const demo = await (await fetch("demo_vision.json")).json();
     const pv = $("#photo-preview");
     pv.onerror = () => pv.classList.add("hidden");
     pv.src = demo.image; pv.classList.remove("hidden");
@@ -399,7 +399,7 @@ function finishCooking() {
   const badge = urgentRescued ? "유통기한 구조 요원" : rescued >= 3 ? "냉장고 털기 장인" : "냉털 새싹";
   $("#report-card").innerHTML = `
     <div class="report-img-wrap">
-      <div class="report-img" data-img="img/mascot_main.png"><span class="emoji-fallback">🛟</span></div>
+      <div class="report-img" data-img="mascot_main.png"><span class="emoji-fallback">🛟</span></div>
       <div class="stamp"><span class="stamp-top">NAENGPAGO</span><b>${badge}</b><span class="stamp-bottom">★ 구조 완료 ★</span></div>
     </div>
     <h2 class="report-title">🛟 오늘의 구조 리포트</h2>
@@ -585,11 +585,11 @@ function bindEvents() {
 async function init() {
   try {
     const [recipes, master] = await Promise.all([
-      fetch("data/recipes.json").then((r) => r.json()),
-      fetch("data/ingredients.json").then((r) => r.json()),
+      fetch("recipes.json").then((r) => r.json()),
+      fetch("ingredients.json").then((r) => r.json()),
     ]);
     let ai = [];
-    try { ai = await fetch("data/ai_recipes.json").then((r) => r.json()); } catch { /* 없으면 공공데이터만 */ }
+    try { ai = await fetch("ai_recipes.json").then((r) => r.json()); } catch { /* 없으면 공공데이터만 */ }
     // 같은 이름의 요리가 공공데이터와 AI에 모두 있으면 공공데이터 쪽만 남김
     const publicNames = new Set(recipes.map((r) => r.name.replace(/\s/g, "")));
     state.recipes = [
