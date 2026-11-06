@@ -1,0 +1,2710 @@
+[
+ {
+  "id": "ai001",
+  "source": "ai",
+  "name": "스팸양파볶음",
+  "emoji": "🥫",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "스팸",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "스팸은 깍둑썰기, 양파는 채 썰어요.",
+   "기름 없이 팬에 스팸을 노릇하게 구워요.",
+   "양파를 넣고 투명해질 때까지 볶아요.",
+   "간장 반 숟가락, 후추 약간으로 마무리해요."
+  ],
+  "substitutes": {
+   "스팸": "햄"
+  },
+  "tip": "단 두 재료 밥도둑"
+ },
+ {
+  "id": "ai002",
+  "source": "ai",
+  "name": "스팸계란덮밥",
+  "emoji": "🍳",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "스팸",
+   "계란",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "스팸을 얇게 썰어 앞뒤로 구워요.",
+   "같은 팬에 계란을 스크램블해요.",
+   "밥 위에 스팸과 계란을 올려요.",
+   "간장 한 숟가락을 둘러 비벼 먹어요."
+  ],
+  "substitutes": {
+   "스팸": "햄"
+  },
+  "tip": "편의점 도시락 업그레이드"
+ },
+ {
+  "id": "ai003",
+  "source": "ai",
+  "name": "김치스팸볶음밥",
+  "emoji": "🍚",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "김치",
+   "스팸",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "김치와 스팸을 잘게 썰어요.",
+   "팬에 스팸을 먼저 볶아 기름을 내요.",
+   "김치를 넣고 2분 볶아요.",
+   "밥을 넣고 고루 볶은 뒤 참기름을 둘러요."
+  ],
+  "substitutes": {
+   "스팸": "햄"
+  },
+  "tip": "신김치 구조 1순위"
+ },
+ {
+  "id": "ai004",
+  "source": "ai",
+  "name": "감자스팸볶음",
+  "emoji": "🥔",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "감자",
+   "스팸"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "감자와 스팸을 같은 크기로 깍둑썰기해요.",
+   "감자를 전자레인지에 3분 돌려 반쯤 익혀요.",
+   "팬에 스팸과 감자를 노릇하게 볶아요.",
+   "후추로 간해요."
+  ],
+  "substitutes": {
+   "스팸": "소시지"
+  },
+  "tip": "싹 나기 전 감자 처리"
+ },
+ {
+  "id": "ai005",
+  "source": "ai",
+  "name": "햄양파볶음",
+  "emoji": "🥓",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "햄",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "햄과 양파를 길게 썰어요.",
+   "기름 두른 팬에 양파를 먼저 볶아요.",
+   "햄을 넣고 1분 더 볶아요.",
+   "간장 반 숟가락, 설탕 약간으로 간해요."
+  ],
+  "substitutes": {
+   "햄": "스팸"
+  },
+  "tip": "도시락 반찬 겸용"
+ },
+ {
+  "id": "ai006",
+  "source": "ai",
+  "name": "햄치즈토스트",
+  "emoji": "🥪",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "식빵",
+   "햄",
+   "치즈"
+  ],
+  "difficulty": "초보",
+  "minutes": 7,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "식빵 한 장에 햄과 치즈를 올려요.",
+   "다른 식빵으로 덮어요.",
+   "약불 팬에 앞뒤로 노릇하게 구워요.",
+   "반으로 잘라 먹어요."
+  ],
+  "substitutes": {
+   "햄": "스팸"
+  },
+  "tip": "아침 3분 컷"
+ },
+ {
+  "id": "ai007",
+  "source": "ai",
+  "name": "소시지양파케첩볶음",
+  "emoji": "🌭",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "소시지",
+   "양파",
+   "케첩"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "소시지에 칼집을 내고 양파는 채 썰어요.",
+   "팬에 소시지와 양파를 볶아요.",
+   "케첩 2숟가락, 설탕 약간을 넣어요.",
+   "소스가 고루 묻게 1분 더 볶아요."
+  ],
+  "substitutes": {
+   "소시지": "햄"
+  },
+  "tip": "추억의 도시락 반찬"
+ },
+ {
+  "id": "ai008",
+  "source": "ai",
+  "name": "소시지계란볶음",
+  "emoji": "🍳",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "소시지",
+   "계란"
+  ],
+  "difficulty": "초보",
+  "minutes": 8,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "소시지를 동그랗게 썰어요.",
+   "팬에 소시지를 볶아요.",
+   "계란을 풀어 넣고 휘저어요.",
+   "소금, 후추로 간해요."
+  ],
+  "substitutes": {
+   "소시지": "햄"
+  },
+  "tip": "냉장고 기본템 조합"
+ },
+ {
+  "id": "ai009",
+  "source": "ai",
+  "name": "참치마요덮밥",
+  "emoji": "🐟",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "참치캔",
+   "마요네즈",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 5,
+  "tools": [],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "참치캔의 기름을 빼요.",
+   "밥 위에 참치를 올려요.",
+   "마요네즈와 간장 약간을 뿌려요.",
+   "김이 있으면 부숴 올려요."
+  ],
+  "substitutes": {
+   "마요네즈": "계란"
+  },
+  "tip": "불 없이 5분"
+ },
+ {
+  "id": "ai010",
+  "source": "ai",
+  "name": "참치김치찌개",
+  "emoji": "🍲",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "참치캔",
+   "김치"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "냄비에 김치를 넣고 기름에 2분 볶아요.",
+   "물 2컵을 붓고 끓여요.",
+   "참치를 기름째 넣어요.",
+   "고춧가루 약간 넣고 5분 더 끓여요."
+  ],
+  "substitutes": {
+   "참치캔": "스팸"
+  },
+  "tip": "고기 없이도 진한 맛"
+ },
+ {
+  "id": "ai011",
+  "source": "ai",
+  "name": "참치계란말이",
+  "emoji": "🥚",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "참치캔",
+   "계란"
+  ],
+  "difficulty": "보통",
+  "minutes": 12,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "참치 기름을 빼고 계란 3개와 섞어요.",
+   "소금 약간으로 간해요.",
+   "약불 팬에 얇게 부어 끝에서부터 말아요.",
+   "식으면 썰어요."
+  ],
+  "substitutes": {
+   "참치캔": "햄"
+  },
+  "tip": "단백질 충전"
+ },
+ {
+  "id": "ai012",
+  "source": "ai",
+  "name": "양배추참치볶음",
+  "emoji": "🥬",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "양배추",
+   "참치캔"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "양배추를 한 입 크기로 썰어요.",
+   "팬에 양배추를 숨이 죽을 때까지 볶아요.",
+   "참치를 넣고 간장 한 숟가락을 넣어요.",
+   "후추로 마무리해요."
+  ],
+  "substitutes": {
+   "참치캔": "햄"
+  },
+  "tip": "양배추 반 통 소비"
+ },
+ {
+  "id": "ai013",
+  "source": "ai",
+  "name": "참치주먹밥",
+  "emoji": "🍙",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "참치캔",
+   "밥",
+   "김",
+   "마요네즈"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "참치 기름을 빼고 마요네즈와 섞어요.",
+   "밥에 참기름, 소금 약간을 섞어요.",
+   "밥 안에 참치를 넣고 동그랗게 뭉쳐요.",
+   "김으로 감싸요."
+  ],
+  "substitutes": {},
+  "tip": "내일 아침 도시락까지"
+ },
+ {
+  "id": "ai014",
+  "source": "ai",
+  "name": "계란볶음밥",
+  "emoji": "🍳",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "계란",
+   "밥",
+   "대파"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "대파를 송송 썰어 기름에 볶아 파기름을 내요.",
+   "계란을 넣고 스크램블해요.",
+   "밥을 넣고 고루 볶아요.",
+   "간장 한 숟가락, 소금으로 간해요."
+  ],
+  "substitutes": {
+   "대파": "양파"
+  },
+  "tip": "볶음밥의 정석"
+ },
+ {
+  "id": "ai015",
+  "source": "ai",
+  "name": "간장계란밥",
+  "emoji": "🍚",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "계란",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 5,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "계란 프라이를 반숙으로 해요.",
+   "따뜻한 밥 위에 올려요.",
+   "간장 한 숟가락, 참기름 반 숟가락을 둘러요.",
+   "비벼 먹어요."
+  ],
+  "substitutes": {},
+  "tip": "재료 2개면 끝"
+ },
+ {
+  "id": "ai016",
+  "source": "ai",
+  "name": "대파계란국",
+  "emoji": "🥣",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "계란",
+   "대파"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "물 2컵을 끓여요.",
+   "국간장(또는 간장)과 소금으로 간해요.",
+   "계란을 풀어 둘러 넣어요.",
+   "송송 썬 대파를 넣고 불을 꺼요."
+  ],
+  "substitutes": {
+   "대파": "양파"
+  },
+  "tip": "10분 따끈한 국"
+ },
+ {
+  "id": "ai017",
+  "source": "ai",
+  "name": "대파계란말이",
+  "emoji": "🥚",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "계란",
+   "대파"
+  ],
+  "difficulty": "보통",
+  "minutes": 12,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "대파를 잘게 다져요.",
+   "계란 3개에 대파, 소금을 넣고 풀어요.",
+   "약불 팬에 얇게 부어 말아요.",
+   "한 번 더 부어 두껍게 말아요."
+  ],
+  "substitutes": {
+   "대파": "양파"
+  },
+  "tip": "자투리 파 처리"
+ },
+ {
+  "id": "ai018",
+  "source": "ai",
+  "name": "전자레인지 계란찜",
+  "emoji": "🥚",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "계란"
+  ],
+  "difficulty": "초보",
+  "minutes": 5,
+  "tools": [
+   "전자레인지"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "계란 2개에 물 4숟가락, 소금 약간을 섞어요.",
+   "전자레인지용 그릇에 담아요.",
+   "랩을 씌우고 구멍을 내요.",
+   "2분 30초 돌려요."
+  ],
+  "substitutes": {},
+  "tip": "설거지 그릇 하나"
+ },
+ {
+  "id": "ai019",
+  "source": "ai",
+  "name": "토마토계란볶음",
+  "emoji": "🍅",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "토마토",
+   "계란"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "토마토를 한 입 크기로 썰어요.",
+   "계란을 반숙 스크램블해서 덜어둬요.",
+   "토마토를 볶다가 계란을 다시 넣어요.",
+   "소금, 설탕 약간으로 간해요."
+  ],
+  "substitutes": {},
+  "tip": "물러진 토마토 살리기"
+ },
+ {
+  "id": "ai020",
+  "source": "ai",
+  "name": "양파계란덮밥",
+  "emoji": "🍳",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "양파",
+   "계란",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 12,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "양파를 채 썰어요.",
+   "물 반 컵, 간장 2, 설탕 1숟가락과 양파를 끓여요.",
+   "양파가 익으면 계란을 풀어 둘러요.",
+   "반숙일 때 밥 위에 올려요."
+  ],
+  "substitutes": {
+   "양파": "대파"
+  },
+  "tip": "고기 없는 규동 느낌"
+ },
+ {
+  "id": "ai021",
+  "source": "ai",
+  "name": "당근계란볶음",
+  "emoji": "🥕",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "당근",
+   "계란"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "당근을 얇게 채 썰어요.",
+   "팬에 당근을 숨이 죽을 때까지 볶아요.",
+   "계란을 풀어 넣고 함께 볶아요.",
+   "소금으로 간해요."
+  ],
+  "substitutes": {
+   "당근": "양파"
+  },
+  "tip": "당근 하나 처리용"
+ },
+ {
+  "id": "ai022",
+  "source": "ai",
+  "name": "깻잎계란말이",
+  "emoji": "🌿",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "깻잎",
+   "계란"
+  ],
+  "difficulty": "보통",
+  "minutes": 12,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "계란 3개를 풀고 소금으로 간해요.",
+   "팬에 계란물을 얇게 붓고 깻잎을 깔아요.",
+   "끝에서부터 돌돌 말아요.",
+   "식으면 썰어요."
+  ],
+  "substitutes": {},
+  "tip": "향긋한 반찬"
+ },
+ {
+  "id": "ai023",
+  "source": "ai",
+  "name": "치즈계란말이",
+  "emoji": "🧀",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "치즈",
+   "계란"
+  ],
+  "difficulty": "보통",
+  "minutes": 12,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "계란 3개를 풀어요.",
+   "팬에 얇게 붓고 치즈를 올려요.",
+   "돌돌 말아요.",
+   "치즈가 녹을 때까지 약불로 익혀요."
+  ],
+  "substitutes": {},
+  "tip": "아이도 어른도 좋아함"
+ },
+ {
+  "id": "ai024",
+  "source": "ai",
+  "name": "맛살계란볶음",
+  "emoji": "🦀",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "맛살",
+   "계란"
+  ],
+  "difficulty": "초보",
+  "minutes": 8,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "맛살을 잘게 찢어요.",
+   "팬에 맛살을 살짝 볶아요.",
+   "계란을 풀어 넣고 함께 볶아요.",
+   "소금, 후추로 간해요."
+  ],
+  "substitutes": {
+   "맛살": "햄"
+  },
+  "tip": "5분 단백질 반찬"
+ },
+ {
+  "id": "ai025",
+  "source": "ai",
+  "name": "시금치계란볶음",
+  "emoji": "🥬",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "시금치",
+   "계란"
+  ],
+  "difficulty": "초보",
+  "minutes": 8,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "시금치를 씻어 반으로 잘라요.",
+   "계란을 스크램블해서 덜어둬요.",
+   "시금치를 다진마늘과 볶아요.",
+   "계란을 넣고 소금으로 간해요."
+  ],
+  "substitutes": {
+   "시금치": "양배추"
+  },
+  "tip": "시금치 한 단 처리"
+ },
+ {
+  "id": "ai026",
+  "source": "ai",
+  "name": "버섯계란볶음",
+  "emoji": "🍄",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "버섯",
+   "계란"
+  ],
+  "difficulty": "초보",
+  "minutes": 8,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "버섯을 먹기 좋게 찢어요.",
+   "팬에 버섯을 볶아요.",
+   "계란을 풀어 넣어요.",
+   "간장 약간으로 간해요."
+  ],
+  "substitutes": {},
+  "tip": "가볍게 한 접시"
+ },
+ {
+  "id": "ai027",
+  "source": "ai",
+  "name": "두부부침",
+  "emoji": "🟨",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "두부"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "두부를 1cm 두께로 썰어 키친타월로 물기를 빼요.",
+   "소금을 살짝 뿌려요.",
+   "기름 두른 팬에 앞뒤로 노릇하게 구워요.",
+   "간장에 찍어 먹어요."
+  ],
+  "substitutes": {},
+  "tip": "두부 반 모 처리"
+ },
+ {
+  "id": "ai028",
+  "source": "ai",
+  "name": "두부조림",
+  "emoji": "🟨",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "두부",
+   "대파"
+  ],
+  "difficulty": "보통",
+  "minutes": 20,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "두부를 썰어 노릇하게 구워요.",
+   "간장 3, 설탕 1, 고춧가루 1, 물 5숟가락을 섞어요.",
+   "양념을 붓고 대파를 올려요.",
+   "국물이 줄어들 때까지 졸여요."
+  ],
+  "substitutes": {
+   "대파": "양파"
+  },
+  "tip": "밥반찬 끝판왕"
+ },
+ {
+  "id": "ai029",
+  "source": "ai",
+  "name": "두부김치",
+  "emoji": "🌶️",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "두부",
+   "김치"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬",
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "두부를 끓는 물에 데쳐 썰어요.",
+   "김치를 설탕 약간, 참기름과 볶아요.",
+   "접시에 두부와 김치를 함께 담아요.",
+   "깨를 뿌려요."
+  ],
+  "substitutes": {},
+  "tip": "술안주 겸 반찬"
+ },
+ {
+  "id": "ai030",
+  "source": "ai",
+  "name": "두부된장찌개",
+  "emoji": "🥘",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "두부",
+   "된장",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 20,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "물 2컵에 된장 1.5숟가락을 풀어요.",
+   "양파를 넣고 끓여요.",
+   "두부를 깍둑썰어 넣어요.",
+   "5분 더 끓여요."
+  ],
+  "substitutes": {
+   "양파": "애호박"
+  },
+  "tip": "집밥 기본 찌개"
+ },
+ {
+  "id": "ai031",
+  "source": "ai",
+  "name": "애호박된장국",
+  "emoji": "🥣",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "애호박",
+   "된장"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "물 3컵에 된장 1숟가락을 풀어요.",
+   "애호박을 반달 모양으로 썰어 넣어요.",
+   "애호박이 익을 때까지 끓여요.",
+   "다진마늘 약간으로 마무리해요."
+  ],
+  "substitutes": {
+   "애호박": "두부"
+  },
+  "tip": "속 편한 국"
+ },
+ {
+  "id": "ai032",
+  "source": "ai",
+  "name": "김치볶음밥",
+  "emoji": "🍚",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "김치",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "김치를 잘게 썰어요.",
+   "기름 두른 팬에 김치를 설탕 약간과 볶아요.",
+   "밥을 넣고 고루 볶아요.",
+   "참기름을 둘러 마무리해요."
+  ],
+  "substitutes": {},
+  "tip": "김치만 있으면 OK"
+ },
+ {
+  "id": "ai033",
+  "source": "ai",
+  "name": "김치전",
+  "emoji": "🥞",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "김치"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "김치를 잘게 썰어요.",
+   "밀가루 1컵, 물 2/3컵, 김치 국물 약간과 섞어요.",
+   "팬에 기름을 넉넉히 두르고 얇게 부쳐요.",
+   "앞뒤로 바삭하게 구워요."
+  ],
+  "substitutes": {},
+  "tip": "비 오는 날 필수"
+ },
+ {
+  "id": "ai034",
+  "source": "ai",
+  "name": "김치라면",
+  "emoji": "🍜",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "김치",
+   "라면"
+  ],
+  "difficulty": "초보",
+  "minutes": 7,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "물 550ml를 끓여요.",
+   "김치를 한 줌 넣어요.",
+   "면과 스프를 넣고 끓여요.",
+   "계란이 있으면 넣어도 좋아요."
+  ],
+  "substitutes": {},
+  "tip": "라면 업그레이드"
+ },
+ {
+  "id": "ai035",
+  "source": "ai",
+  "name": "돼지고기김치찌개",
+  "emoji": "🍲",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "김치",
+   "돼지고기"
+  ],
+  "difficulty": "보통",
+  "minutes": 25,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "냄비에 돼지고기와 김치를 넣고 볶아요.",
+   "물 2컵을 붓고 끓여요.",
+   "고춧가루, 다진마늘을 넣어요.",
+   "10분 더 끓여요."
+  ],
+  "substitutes": {
+   "돼지고기": "참치캔"
+  },
+  "tip": "든든한 한 끼"
+ },
+ {
+  "id": "ai036",
+  "source": "ai",
+  "name": "돼지고기김치볶음",
+  "emoji": "🥓",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "돼지고기",
+   "김치"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "돼지고기를 먼저 볶아요.",
+   "김치를 넣고 함께 볶아요.",
+   "설탕 약간, 고춧가루를 넣어요.",
+   "참기름으로 마무리해요."
+  ],
+  "substitutes": {
+   "돼지고기": "스팸"
+  },
+  "tip": "밥 두 공기 각"
+ },
+ {
+  "id": "ai037",
+  "source": "ai",
+  "name": "간단 제육볶음",
+  "emoji": "🌶️",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "돼지고기",
+   "양파",
+   "고추장"
+  ],
+  "difficulty": "보통",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "고추장 2, 간장 1, 설탕 1, 다진마늘 1숟가락을 섞어요.",
+   "돼지고기에 양념을 버무려요.",
+   "팬에 고기를 볶다가 양파를 넣어요.",
+   "양파가 익을 때까지 볶아요."
+  ],
+  "substitutes": {
+   "양파": "양배추"
+  },
+  "tip": "자취생 최애 메뉴"
+ },
+ {
+  "id": "ai038",
+  "source": "ai",
+  "name": "대패숙주볶음",
+  "emoji": "🌱",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "돼지고기",
+   "숙주"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "돼지고기를 소금, 후추로 볶아요.",
+   "고기가 익으면 숙주를 넣어요.",
+   "센 불에 30초만 볶아요.",
+   "간장 약간, 참기름으로 마무리해요."
+  ],
+  "substitutes": {
+   "숙주": "양배추"
+  },
+  "tip": "숙주는 빨리 볶기"
+ },
+ {
+  "id": "ai039",
+  "source": "ai",
+  "name": "닭고기양파볶음",
+  "emoji": "🍗",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "닭고기",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "닭고기를 한 입 크기로 썰어요.",
+   "팬에 닭고기를 노릇하게 익혀요.",
+   "양파를 넣고 볶아요.",
+   "간장 2, 설탕 1숟가락으로 졸여요."
+  ],
+  "substitutes": {
+   "양파": "대파"
+  },
+  "tip": "간장 닭볶음 간단 버전"
+ },
+ {
+  "id": "ai040",
+  "source": "ai",
+  "name": "간단 닭갈비",
+  "emoji": "🍗",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "닭고기",
+   "고추장",
+   "양배추"
+  ],
+  "difficulty": "보통",
+  "minutes": 20,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "고추장 2, 간장 1, 설탕 1, 다진마늘 1숟가락을 섞어요.",
+   "닭고기에 양념을 버무려요.",
+   "팬에 양배추를 깔고 닭고기를 올려 볶아요.",
+   "닭이 익을 때까지 뒤적여요."
+  ],
+  "substitutes": {
+   "양배추": "양파"
+  },
+  "tip": "춘천 안 가도 OK"
+ },
+ {
+  "id": "ai041",
+  "source": "ai",
+  "name": "간단 카레라이스",
+  "emoji": "🍛",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "카레가루",
+   "양파",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 20,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "양파를 깍둑썰어 볶아요.",
+   "물 2컵을 넣고 끓여요.",
+   "카레가루를 풀어 넣고 저어가며 5분 끓여요.",
+   "밥 위에 부어요."
+  ],
+  "substitutes": {
+   "양파": "감자"
+  },
+  "tip": "대량 생산 가능"
+ },
+ {
+  "id": "ai042",
+  "source": "ai",
+  "name": "감자카레",
+  "emoji": "🍛",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "카레가루",
+   "감자",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 25,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "감자, 양파를 깍둑썰어요.",
+   "냄비에 볶다가 물 2.5컵을 부어요.",
+   "감자가 익으면 카레가루를 풀어요.",
+   "걸쭉해질 때까지 끓여요."
+  ],
+  "substitutes": {
+   "감자": "당근"
+  },
+  "tip": "한 번 만들어 3끼"
+ },
+ {
+  "id": "ai043",
+  "source": "ai",
+  "name": "감자채볶음",
+  "emoji": "🥔",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "감자",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "감자와 양파를 얇게 채 썰어요.",
+   "감자를 물에 5분 담가 전분을 빼요.",
+   "팬에 감자를 볶다가 양파를 넣어요.",
+   "소금으로 간해요."
+  ],
+  "substitutes": {
+   "양파": "당근"
+  },
+  "tip": "기본 반찬"
+ },
+ {
+  "id": "ai044",
+  "source": "ai",
+  "name": "감자전",
+  "emoji": "🥔",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "감자"
+  ],
+  "difficulty": "보통",
+  "minutes": 20,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "감자를 강판에 갈아요.",
+   "소금 약간을 넣어요.",
+   "팬에 기름을 두르고 얇게 펴요.",
+   "앞뒤로 바삭하게 구워요."
+  ],
+  "substitutes": {},
+  "tip": "감자 하나로 간식"
+ },
+ {
+  "id": "ai045",
+  "source": "ai",
+  "name": "간장감자조림",
+  "emoji": "🥔",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "감자"
+  ],
+  "difficulty": "초보",
+  "minutes": 20,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "감자를 깍둑썰어요.",
+   "팬에 감자를 살짝 볶아요.",
+   "간장 2, 설탕 1, 물 반 컵을 넣어요.",
+   "국물이 줄 때까지 졸여요."
+  ],
+  "substitutes": {},
+  "tip": "도시락 단골"
+ },
+ {
+  "id": "ai046",
+  "source": "ai",
+  "name": "애호박전",
+  "emoji": "🥒",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "애호박",
+   "계란"
+  ],
+  "difficulty": "보통",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "애호박을 동그랗게 썰어 소금을 뿌려요.",
+   "밀가루를 앞뒤로 묻혀요.",
+   "계란물에 담가요.",
+   "팬에 앞뒤로 부쳐요."
+  ],
+  "substitutes": {},
+  "tip": "명절 느낌 반찬"
+ },
+ {
+  "id": "ai047",
+  "source": "ai",
+  "name": "애호박볶음",
+  "emoji": "🥒",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "애호박",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "애호박을 반달, 양파를 채 썰어요.",
+   "팬에 다진마늘과 함께 볶아요.",
+   "소금으로 간해요.",
+   "깨를 뿌려요."
+  ],
+  "substitutes": {
+   "양파": "당근"
+  },
+  "tip": "부드러운 반찬"
+ },
+ {
+  "id": "ai048",
+  "source": "ai",
+  "name": "양배추계란전",
+  "emoji": "🥬",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "양배추",
+   "계란"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "양배추를 얇게 채 썰어요.",
+   "계란 2개, 밀가루 2숟가락과 섞어요.",
+   "팬에 둥글게 부쳐요.",
+   "케첩이나 마요네즈를 뿌려요."
+  ],
+  "substitutes": {},
+  "tip": "오코노미야키 느낌"
+ },
+ {
+  "id": "ai049",
+  "source": "ai",
+  "name": "버섯양파볶음",
+  "emoji": "🍄",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "버섯",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "버섯은 찢고 양파는 채 썰어요.",
+   "팬에 양파를 먼저 볶아요.",
+   "버섯을 넣고 숨이 죽을 때까지 볶아요.",
+   "간장 약간, 후추로 간해요."
+  ],
+  "substitutes": {
+   "버섯": "애호박"
+  },
+  "tip": "고기 같은 식감"
+ },
+ {
+  "id": "ai050",
+  "source": "ai",
+  "name": "콩나물무침",
+  "emoji": "🌱",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "콩나물"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "콩나물을 끓는 물에 뚜껑 덮고 5분 데쳐요.",
+   "찬물에 헹궈 물기를 빼요.",
+   "소금, 다진마늘, 참기름으로 무쳐요.",
+   "깨를 뿌려요."
+  ],
+  "substitutes": {
+   "콩나물": "숙주"
+  },
+  "tip": "싸고 건강한 반찬"
+ },
+ {
+  "id": "ai051",
+  "source": "ai",
+  "name": "콩나물국",
+  "emoji": "🌱",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "콩나물",
+   "대파"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "물 3컵에 콩나물을 넣고 뚜껑 덮어 끓여요.",
+   "다진마늘, 소금으로 간해요.",
+   "대파를 넣어요.",
+   "한소끔 더 끓여요."
+  ],
+  "substitutes": {
+   "대파": "양파"
+  },
+  "tip": "해장에도 최고"
+ },
+ {
+  "id": "ai052",
+  "source": "ai",
+  "name": "콩나물비빔밥",
+  "emoji": "🍚",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "콩나물",
+   "밥",
+   "고추장"
+  ],
+  "difficulty": "초보",
+  "minutes": 12,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "콩나물을 데쳐 소금, 참기름으로 무쳐요.",
+   "밥 위에 콩나물을 올려요.",
+   "고추장 1숟가락, 참기름을 넣어요.",
+   "쓱쓱 비벼요."
+  ],
+  "substitutes": {},
+  "tip": "한 그릇 뚝딱"
+ },
+ {
+  "id": "ai053",
+  "source": "ai",
+  "name": "숙주볶음",
+  "emoji": "🌱",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "숙주",
+   "대파"
+  ],
+  "difficulty": "초보",
+  "minutes": 5,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "대파를 썰어 기름에 볶아요.",
+   "숙주를 넣고 센 불에 30초 볶아요.",
+   "간장 약간, 후추로 간해요.",
+   "바로 불을 꺼요."
+  ],
+  "substitutes": {
+   "숙주": "콩나물"
+  },
+  "tip": "30초 볶음"
+ },
+ {
+  "id": "ai054",
+  "source": "ai",
+  "name": "시금치나물",
+  "emoji": "🥬",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "시금치"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "시금치를 끓는 물에 30초 데쳐요.",
+   "찬물에 헹궈 물기를 꼭 짜요.",
+   "소금, 다진마늘, 참기름으로 무쳐요.",
+   "깨를 뿌려요."
+  ],
+  "substitutes": {},
+  "tip": "초록 반찬"
+ },
+ {
+  "id": "ai055",
+  "source": "ai",
+  "name": "오이무침",
+  "emoji": "🥒",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "오이"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "오이를 얇게 썰어요.",
+   "소금에 5분 절여 물기를 짜요.",
+   "고춧가루, 식초, 설탕, 다진마늘로 무쳐요.",
+   "깨를 뿌려요."
+  ],
+  "substitutes": {},
+  "tip": "불 없이 상큼"
+ },
+ {
+  "id": "ai056",
+  "source": "ai",
+  "name": "맛살오이샐러드",
+  "emoji": "🥗",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "맛살",
+   "오이",
+   "마요네즈"
+  ],
+  "difficulty": "초보",
+  "minutes": 5,
+  "tools": [],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "오이를 채 썰어요.",
+   "맛살을 잘게 찢어요.",
+   "마요네즈 2숟가락, 후추로 버무려요.",
+   "차갑게 먹어요."
+  ],
+  "substitutes": {},
+  "tip": "5분 샐러드"
+ },
+ {
+  "id": "ai057",
+  "source": "ai",
+  "name": "어묵볶음",
+  "emoji": "🍢",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "어묵",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "어묵과 양파를 길게 썰어요.",
+   "팬에 함께 볶아요.",
+   "간장 1, 올리고당 1숟가락을 넣어요.",
+   "1분 더 볶아요."
+  ],
+  "substitutes": {
+   "양파": "당근"
+  },
+  "tip": "일주일 반찬"
+ },
+ {
+  "id": "ai058",
+  "source": "ai",
+  "name": "어묵탕",
+  "emoji": "🍢",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "어묵",
+   "대파"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "물 3컵을 끓여요.",
+   "어묵을 꼬치에 끼우거나 썰어 넣어요.",
+   "간장, 소금으로 간해요.",
+   "대파를 넣고 5분 더 끓여요."
+  ],
+  "substitutes": {
+   "대파": "양파"
+  },
+  "tip": "추운 날 국물"
+ },
+ {
+  "id": "ai059",
+  "source": "ai",
+  "name": "떡볶이",
+  "emoji": "🌶️",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "떡",
+   "고추장",
+   "어묵"
+  ],
+  "difficulty": "보통",
+  "minutes": 20,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "물 1.5컵에 고추장 2, 설탕 1.5, 간장 1숟가락을 풀어요.",
+   "떡과 어묵을 넣고 끓여요.",
+   "국물이 걸쭉해질 때까지 졸여요.",
+   "대파가 있으면 넣어요."
+  ],
+  "substitutes": {
+   "어묵": "소시지"
+  },
+  "tip": "야식 생존템"
+ },
+ {
+  "id": "ai060",
+  "source": "ai",
+  "name": "간장떡볶이",
+  "emoji": "🍡",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "떡",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "떡을 물에 불려요.",
+   "양파를 채 썰어 볶아요.",
+   "떡과 간장 2, 설탕 1숟가락을 넣어요.",
+   "떡이 말랑해질 때까지 볶아요."
+  ],
+  "substitutes": {
+   "양파": "버섯"
+  },
+  "tip": "안 매운 궁중떡볶이"
+ },
+ {
+  "id": "ai061",
+  "source": "ai",
+  "name": "라볶이",
+  "emoji": "🍜",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "라면",
+   "떡",
+   "고추장"
+  ],
+  "difficulty": "보통",
+  "minutes": 15,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "물 2컵에 고추장 2, 설탕 1숟가락을 풀어요.",
+   "떡을 넣고 끓여요.",
+   "라면을 넣고 2분 더 끓여요.",
+   "국물이 졸면 완성이에요."
+  ],
+  "substitutes": {
+   "떡": "어묵"
+  },
+  "tip": "분식집 메뉴"
+ },
+ {
+  "id": "ai062",
+  "source": "ai",
+  "name": "계란파라면",
+  "emoji": "🍜",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "라면",
+   "계란",
+   "대파"
+  ],
+  "difficulty": "초보",
+  "minutes": 7,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "물 550ml를 끓여요.",
+   "면과 스프를 넣어요.",
+   "2분 뒤 계란을 넣고 휘젓지 않아요.",
+   "대파를 올려요."
+  ],
+  "substitutes": {
+   "대파": "양파"
+  },
+  "tip": "라면의 기본 업그레이드"
+ },
+ {
+  "id": "ai063",
+  "source": "ai",
+  "name": "치즈라면",
+  "emoji": "🧀",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "라면",
+   "치즈"
+  ],
+  "difficulty": "초보",
+  "minutes": 6,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "라면을 평소대로 끓여요.",
+   "불을 끄기 직전 치즈 한 장을 올려요.",
+   "녹으면 저어 먹어요.",
+   "후추를 살짝 뿌려요."
+  ],
+  "substitutes": {},
+  "tip": "꾸덕한 국물"
+ },
+ {
+  "id": "ai064",
+  "source": "ai",
+  "name": "비빔국수",
+  "emoji": "🍜",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "국수",
+   "고추장",
+   "오이"
+  ],
+  "difficulty": "초보",
+  "minutes": 12,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "국수를 삶아 찬물에 헹궈요.",
+   "고추장 2, 식초 1, 설탕 1, 참기름 1숟가락을 섞어요.",
+   "오이를 채 썰어요.",
+   "국수, 양념, 오이를 비벼요."
+  ],
+  "substitutes": {
+   "오이": "양배추"
+  },
+  "tip": "여름 별미"
+ },
+ {
+  "id": "ai065",
+  "source": "ai",
+  "name": "간장비빔국수",
+  "emoji": "🍜",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "국수",
+   "김"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "국수를 삶아 찬물에 헹궈요.",
+   "간장 2, 설탕 1, 참기름 1숟가락을 섞어요.",
+   "국수와 양념을 비벼요.",
+   "김을 부숴 올려요."
+  ],
+  "substitutes": {},
+  "tip": "안 매운 비빔국수"
+ },
+ {
+  "id": "ai066",
+  "source": "ai",
+  "name": "토마토파스타",
+  "emoji": "🍝",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "파스타면",
+   "토마토",
+   "양파"
+  ],
+  "difficulty": "보통",
+  "minutes": 20,
+  "tools": [
+   "냄비",
+   "프라이팬"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "파스타면을 소금물에 8분 삶아요.",
+   "팬에 다진마늘, 양파를 볶아요.",
+   "토마토를 썰어 넣고 으깨며 끓여요.",
+   "면을 넣고 소금, 후추로 간해요."
+  ],
+  "substitutes": {
+   "양파": "버섯"
+  },
+  "tip": "생토마토로 소스"
+ },
+ {
+  "id": "ai067",
+  "source": "ai",
+  "name": "베이컨크림파스타",
+  "emoji": "🍝",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "파스타면",
+   "우유",
+   "베이컨"
+  ],
+  "difficulty": "보통",
+  "minutes": 20,
+  "tools": [
+   "냄비",
+   "프라이팬"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "파스타면을 8분 삶아요.",
+   "팬에 베이컨을 볶아요.",
+   "우유 1컵을 붓고 끓여요.",
+   "면을 넣고 소금, 후추로 간하며 졸여요."
+  ],
+  "substitutes": {
+   "베이컨": "햄"
+  },
+  "tip": "우유로 만드는 크림"
+ },
+ {
+  "id": "ai068",
+  "source": "ai",
+  "name": "베이컨볶음밥",
+  "emoji": "🥓",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "베이컨",
+   "밥",
+   "양파"
+  ],
+  "difficulty": "초보",
+  "minutes": 12,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "베이컨과 양파를 잘게 썰어요.",
+   "베이컨을 볶아 기름을 내요.",
+   "양파, 밥을 넣고 볶아요.",
+   "간장, 후추로 간해요."
+  ],
+  "substitutes": {
+   "베이컨": "햄"
+  },
+  "tip": "향이 좋은 볶음밥"
+ },
+ {
+  "id": "ai069",
+  "source": "ai",
+  "name": "베이컨감자볶음",
+  "emoji": "🥔",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "베이컨",
+   "감자"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "감자를 얇게 썰어 전자레인지에 3분 돌려요.",
+   "베이컨을 볶아요.",
+   "감자를 넣고 노릇하게 볶아요.",
+   "후추로 마무리해요."
+  ],
+  "substitutes": {
+   "베이컨": "햄"
+  },
+  "tip": "맥주 안주"
+ },
+ {
+  "id": "ai070",
+  "source": "ai",
+  "name": "프렌치토스트",
+  "emoji": "🍞",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "식빵",
+   "계란",
+   "우유"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "계란 1개, 우유 3숟가락, 설탕 약간을 섞어요.",
+   "식빵을 담가 적셔요.",
+   "버터나 기름 두른 팬에 구워요.",
+   "앞뒤로 노릇하게 구워요."
+  ],
+  "substitutes": {
+   "우유": "계란"
+  },
+  "tip": "주말 브런치"
+ },
+ {
+  "id": "ai071",
+  "source": "ai",
+  "name": "에그토스트",
+  "emoji": "🍳",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "식빵",
+   "계란"
+  ],
+  "difficulty": "초보",
+  "minutes": 8,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "식빵을 팬에 구워요.",
+   "계란 프라이를 해요.",
+   "식빵 위에 계란을 올려요.",
+   "케첩이나 설탕을 뿌려요."
+  ],
+  "substitutes": {},
+  "tip": "길거리 토스트 느낌"
+ },
+ {
+  "id": "ai072",
+  "source": "ai",
+  "name": "만둣국",
+  "emoji": "🥟",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "만두",
+   "계란",
+   "대파"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "물 3컵을 끓여 간장, 소금으로 간해요.",
+   "만두를 넣고 5분 끓여요.",
+   "계란을 풀어 둘러요.",
+   "대파를 넣어요."
+  ],
+  "substitutes": {
+   "대파": "김"
+  },
+  "tip": "냉동만두 활용"
+ },
+ {
+  "id": "ai073",
+  "source": "ai",
+  "name": "군만두",
+  "emoji": "🥟",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "만두"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "팬에 기름을 두르고 만두를 올려요.",
+   "바닥이 노릇해지면 물 3숟가락을 넣어요.",
+   "뚜껑을 덮고 3분 익혀요.",
+   "뚜껑을 열고 바삭하게 마무리해요."
+  ],
+  "substitutes": {},
+  "tip": "냉동실 구조대"
+ },
+ {
+  "id": "ai074",
+  "source": "ai",
+  "name": "김주먹밥",
+  "emoji": "🍙",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "김",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 5,
+  "tools": [],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "밥에 참기름, 소금, 깨를 섞어요.",
+   "한 입 크기로 뭉쳐요.",
+   "김을 부숴 굴려요.",
+   "접시에 담아요."
+  ],
+  "substitutes": {},
+  "tip": "재료 2개 간식"
+ },
+ {
+  "id": "ai075",
+  "source": "ai",
+  "name": "버터간장밥",
+  "emoji": "🧈",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "버터",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 3,
+  "tools": [
+   "전자레인지"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "따뜻한 밥에 버터 한 조각을 올려요.",
+   "간장 1숟가락을 둘러요.",
+   "전자레인지에 30초 돌려요.",
+   "비벼 먹어요."
+  ],
+  "substitutes": {},
+  "tip": "3분 컷 레전드"
+ },
+ {
+  "id": "ai076",
+  "source": "ai",
+  "name": "소고기뭇국",
+  "emoji": "🥣",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "소고기",
+   "무"
+  ],
+  "difficulty": "보통",
+  "minutes": 25,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "무를 납작하게 썰어요.",
+   "냄비에 소고기를 참기름과 볶아요.",
+   "무를 넣고 볶다가 물 3컵을 부어요.",
+   "국간장, 소금으로 간하고 15분 끓여요."
+  ],
+  "substitutes": {},
+  "tip": "보양 국"
+ },
+ {
+  "id": "ai077",
+  "source": "ai",
+  "name": "간단 소고기덮밥",
+  "emoji": "🥩",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "소고기",
+   "양파",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 15,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "양파를 채 썰어요.",
+   "소고기와 양파를 함께 볶아요.",
+   "간장 2, 설탕 1숟가락을 넣어 졸여요.",
+   "밥 위에 올려요."
+  ],
+  "substitutes": {
+   "소고기": "돼지고기"
+  },
+  "tip": "규동 스타일"
+ },
+ {
+  "id": "ai078",
+  "source": "ai",
+  "name": "고추장찌개",
+  "emoji": "🍲",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "고추장",
+   "감자",
+   "양파"
+  ],
+  "difficulty": "보통",
+  "minutes": 20,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "물 2컵에 고추장 1.5숟가락을 풀어요.",
+   "감자와 양파를 썰어 넣어요.",
+   "감자가 익을 때까지 끓여요.",
+   "고춧가루, 다진마늘로 마무리해요."
+  ],
+  "substitutes": {
+   "감자": "애호박"
+  },
+  "tip": "얼큰한 찌개"
+ },
+ {
+  "id": "ai079",
+  "source": "ai",
+  "name": "우유계란죽",
+  "emoji": "🥛",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "우유",
+   "계란",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "냄비에 밥 반 공기, 우유 1컵을 넣어요.",
+   "저어가며 끓여요.",
+   "계란을 풀어 넣어요.",
+   "소금으로 간해요."
+  ],
+  "substitutes": {},
+  "tip": "아플 때 한 그릇"
+ },
+ {
+  "id": "ai080",
+  "source": "ai",
+  "name": "양파수프",
+  "emoji": "🧅",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "양파",
+   "버터",
+   "우유"
+  ],
+  "difficulty": "보통",
+  "minutes": 25,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 4,
+  "easy_steps": [
+   "양파를 얇게 채 썰어요.",
+   "버터에 양파를 갈색이 될 때까지 볶아요.",
+   "우유 1컵을 붓고 끓여요.",
+   "소금, 후추로 간해요."
+  ],
+  "substitutes": {},
+  "tip": "양파 대량 소비"
+ },
+ {
+  "id": "ai081",
+  "source": "ai",
+  "name": "양배추쌈과 쌈장",
+  "emoji": "🥬",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "양배추",
+   "된장",
+   "고추장",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "전자레인지"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "양배추 잎을 전자레인지에 2분 돌려 쪄요.",
+   "된장 1, 고추장 0.5, 참기름 약간으로 쌈장을 만들어요.",
+   "양배추에 밥과 쌈장을 올려요.",
+   "싸서 먹어요."
+  ],
+  "substitutes": {},
+  "tip": "다이어트 한 끼"
+ },
+ {
+  "id": "ai082",
+  "source": "ai",
+  "name": "깻잎참치쌈밥",
+  "emoji": "🌿",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "깻잎",
+   "참치캔",
+   "밥"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "참치 기름을 빼고 간장 약간과 섞어요.",
+   "깻잎 위에 밥을 올려요.",
+   "참치를 올리고 돌돌 말아요.",
+   "한 입 크기로 먹어요."
+  ],
+  "substitutes": {},
+  "tip": "도시락으로 좋아요"
+ },
+ {
+  "id": "ai083",
+  "source": "ai",
+  "name": "케첩계란볶음밥",
+  "emoji": "🍳",
+  "image": "",
+  "category": "AI 레시피",
+  "kcal": null,
+  "ingredients": [
+   "계란",
+   "밥",
+   "케첩"
+  ],
+  "difficulty": "초보",
+  "minutes": 10,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 5,
+  "easy_steps": [
+   "계란을 스크램블해요.",
+   "밥을 넣고 볶아요.",
+   "케첩 2숟가락을 넣어 고루 볶아요.",
+   "소금으로 간해요."
+  ],
+  "substitutes": {},
+  "tip": "오므라이스 느낌"
+ },
+ {
+  "id": "aic01",
+  "source": "ai",
+  "name": "김치찜",
+  "emoji": "🍲",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "김치",
+   "돼지고기",
+   "양파"
+  ],
+  "difficulty": "보통",
+  "minutes": 60,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "냄비 바닥에 양파를 깔고 통김치와 돼지고기를 올려요.",
+   "물 2컵, 설탕 1, 고춧가루 1, 다진마늘 1숟가락을 넣어요.",
+   "뚜껑을 덮고 중약불에서 50분 푹 끓여요.",
+   "김치를 가위로 잘라 고기와 함께 먹어요."
+  ],
+  "substitutes": {
+   "돼지고기": "스팸"
+  },
+  "tip": "오래 끓일수록 맛있는 집밥"
+ },
+ {
+  "id": "aic02",
+  "source": "ai",
+  "name": "닭볶음탕",
+  "emoji": "🍗",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "닭고기",
+   "감자",
+   "당근",
+   "양파",
+   "고추장"
+  ],
+  "difficulty": "도전",
+  "minutes": 50,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "닭고기를 끓는 물에 1분 데쳐 기름을 빼요.",
+   "고추장 2, 간장 3, 설탕 1.5, 고춧가루 2, 다진마늘 1숟가락을 섞어요.",
+   "냄비에 닭, 감자, 당근, 양념, 물 2컵을 넣고 30분 끓여요.",
+   "양파를 넣고 국물이 자작해질 때까지 10분 더 졸여요."
+  ],
+  "substitutes": {
+   "당근": "애호박"
+  },
+  "tip": "주말 정성 한 냄비"
+ },
+ {
+  "id": "aic03",
+  "source": "ai",
+  "name": "부대찌개",
+  "emoji": "🍲",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "스팸",
+   "소시지",
+   "김치",
+   "라면",
+   "대파"
+  ],
+  "difficulty": "보통",
+  "minutes": 30,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "스팸, 소시지, 김치, 대파를 냄비에 둘러 담아요.",
+   "고춧가루 1, 간장 1, 다진마늘 1숟가락을 가운데 올려요.",
+   "물 3컵을 붓고 10분 끓여요.",
+   "라면 사리를 넣고 3분 더 끓여요."
+  ],
+  "substitutes": {
+   "소시지": "햄"
+  },
+  "tip": "친구 초대용 메뉴"
+ },
+ {
+  "id": "aic04",
+  "source": "ai",
+  "name": "수제 함박스테이크",
+  "emoji": "🍖",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "돼지고기",
+   "소고기",
+   "양파",
+   "계란",
+   "식빵"
+  ],
+  "difficulty": "도전",
+  "minutes": 40,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "양파를 다져 갈색이 될 때까지 볶아 식혀요.",
+   "다진 고기, 양파, 계란, 잘게 뜯은 식빵, 소금, 후추를 치대요.",
+   "동그랗게 빚어 팬에 앞뒤로 굽고 뚜껑 덮어 10분 익혀요.",
+   "케첩 2, 간장 1, 설탕 1, 물 3숟가락으로 소스를 졸여 올려요."
+  ],
+  "substitutes": {
+   "식빵": "전분"
+  },
+  "tip": "레스토랑 느낌"
+ },
+ {
+  "id": "aic05",
+  "source": "ai",
+  "name": "오므라이스",
+  "emoji": "🍳",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "계란",
+   "밥",
+   "양파",
+   "당근",
+   "햄",
+   "케첩"
+  ],
+  "difficulty": "도전",
+  "minutes": 30,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "양파, 당근, 햄을 잘게 썰어 볶아요.",
+   "밥과 케첩 2숟가락을 넣고 볶음밥을 만들어요.",
+   "계란 2개를 풀어 얇게 부쳐요.",
+   "볶음밥을 계란으로 감싸고 케첩을 뿌려요."
+  ],
+  "substitutes": {
+   "햄": "소시지"
+  },
+  "tip": "모양까지 정성"
+ },
+ {
+  "id": "aic06",
+  "source": "ai",
+  "name": "소고기 버섯전골",
+  "emoji": "🍲",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "소고기",
+   "버섯",
+   "배추",
+   "대파"
+  ],
+  "difficulty": "보통",
+  "minutes": 35,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "소고기에 간장 2, 설탕 1, 다진마늘 1숟가락으로 밑간해요.",
+   "냄비에 배추, 버섯, 대파, 소고기를 둘러 담아요.",
+   "물 3컵과 국간장으로 간해 끓여요.",
+   "재료가 익으면 건져 먹으며 끓여요."
+  ],
+  "substitutes": {
+   "배추": "양배추"
+  },
+  "tip": "따뜻한 정성 전골"
+ },
+ {
+  "id": "aic07",
+  "source": "ai",
+  "name": "버섯 베이컨 크림리조또",
+  "emoji": "🍚",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "밥",
+   "우유",
+   "버섯",
+   "베이컨",
+   "치즈"
+  ],
+  "difficulty": "보통",
+  "minutes": 30,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "베이컨과 버섯을 잘게 썰어 볶아요.",
+   "밥을 넣고 우유 1.5컵을 부어요.",
+   "약불에서 저어가며 걸쭉해질 때까지 졸여요.",
+   "치즈를 녹이고 소금, 후추로 간해요."
+  ],
+  "substitutes": {
+   "베이컨": "햄"
+  },
+  "tip": "우유로 만드는 리조또"
+ },
+ {
+  "id": "aic08",
+  "source": "ai",
+  "name": "감자 그라탕",
+  "emoji": "🧀",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "감자",
+   "우유",
+   "치즈",
+   "베이컨",
+   "버터"
+  ],
+  "difficulty": "도전",
+  "minutes": 45,
+  "tools": [
+   "냄비",
+   "오븐"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "감자를 얇게 썰어 우유에 10분 삶아요.",
+   "오븐 그릇에 버터를 바르고 감자와 베이컨을 겹겹이 깔아요.",
+   "남은 우유를 붓고 치즈를 덮어요.",
+   "200도 오븐에 20분 구워요. (전자레인지 6분도 가능)"
+  ],
+  "substitutes": {
+   "베이컨": "햄"
+  },
+  "tip": "치즈 듬뿍 오븐 요리"
+ },
+ {
+  "id": "aic09",
+  "source": "ai",
+  "name": "돼지고기 간장불고기",
+  "emoji": "🥩",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "돼지고기",
+   "양파",
+   "대파",
+   "당근"
+  ],
+  "difficulty": "보통",
+  "minutes": 35,
+  "tools": [
+   "프라이팬"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "간장 4, 설탕 2, 다진마늘 1, 참기름 1숟가락으로 양념을 만들어요.",
+   "고기와 채 썬 양파, 당근을 양념에 20분 재워요.",
+   "팬에 센 불로 볶아요.",
+   "대파를 넣고 1분 더 볶아요."
+  ],
+  "substitutes": {
+   "당근": "버섯"
+  },
+  "tip": "재워두면 더 맛있어요"
+ },
+ {
+  "id": "aic10",
+  "source": "ai",
+  "name": "소고기 토마토스튜",
+  "emoji": "🍅",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "소고기",
+   "토마토",
+   "감자",
+   "양파",
+   "당근"
+  ],
+  "difficulty": "도전",
+  "minutes": 60,
+  "tools": [
+   "냄비"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "소고기를 소금, 후추로 밑간해 겉면을 구워요.",
+   "양파, 당근, 감자를 깍둑썰어 함께 볶아요.",
+   "토마토를 썰어 넣고 물 3컵을 부어요.",
+   "약불에서 40분 뭉근히 끓여요."
+  ],
+  "substitutes": {
+   "소고기": "돼지고기"
+  },
+  "tip": "시간이 만드는 깊은 맛"
+ },
+ {
+  "id": "aic11",
+  "source": "ai",
+  "name": "새우 토마토파스타",
+  "emoji": "🍝",
+  "image": "",
+  "category": "AI 정성 레시피",
+  "kcal": null,
+  "ingredients": [
+   "파스타면",
+   "새우",
+   "토마토",
+   "양파"
+  ],
+  "difficulty": "보통",
+  "minutes": 30,
+  "tools": [
+   "냄비",
+   "프라이팬"
+  ],
+  "jachwi_score": 3,
+  "easy_steps": [
+   "파스타면을 소금물에 8분 삶아요.",
+   "다진마늘, 양파를 볶다가 새우를 넣어요.",
+   "토마토를 썰어 넣고 으깨며 10분 끓여요.",
+   "면과 면수 3숟가락을 넣고 버무려요."
+  ],
+  "substitutes": {
+   "새우": "베이컨"
+  },
+  "tip": "데이트 메뉴"
+ }
+]

@@ -1,0 +1,7 @@
+{
+  "is_example": true,
+  "note": "자리표시용 예시입니다. notebooks/03_fridge_vision.ipynb를 틸론에서 실행하면 실제 인식 결과로 덮어써집니다.",
+  "image": "img/demo_fridge.jpg",
+  "model": "Qwen2.5-VL (교내 GPU 틸론에서 미리 인식)",
+  "ingredients": ["계란", "대파", "두부", "김치", "양파"]
+}

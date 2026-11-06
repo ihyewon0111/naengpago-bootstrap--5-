@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>냉파고 – 냉장고 털 각 나왔다</title>
+  <meta name="description" content="냉장고 속 남은 재료로 만들 수 있는 요리를 공공데이터와 AI로 찾아주는 자취생 요리 추천 서비스">
+  <meta property="og:title" content="냉파고 – 냉장고 털 각 나왔다">
+  <meta property="og:description" content="남은 재료로 돈 안 쓰는 한 끼, 공공데이터 + AI 자취 요리 추천">
+  <meta property="og:image" content="img/mascot_main.png">
+  <link rel="icon" href="img/mascot_main.png">
+  <!-- Bootstrap v6.0.0-alpha.1 (Product 예제 테마) : 오프라인에서도 열리도록 vendor 폴더에 포함 -->
+  <link rel="stylesheet" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="css/web.css">
+</head>
+<body>
+
+  <!-- 아이콘 모음 (Product 예제와 같은 방식) -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    <symbol id="logo" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+      <rect x="5" y="2" width="14" height="20" rx="2.5"/><path d="M5 9h14M8.5 5v2M8.5 12v4"/>
+    </symbol>
+    <symbol id="icon-basket" viewBox="0 0 16 16" fill="currentColor">
+      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </symbol>
+    <symbol id="chevron-right" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+    </symbol>
+  </svg>
+
+  <!-- ================= 상단 내비게이션 (어두운 Product 내비바) ================= -->
+  <nav class="navbar md:navbar-expand sticky-top border-bottom" data-bs-theme="dark">
+    <div class="container">
+      <button class="navbar-brand md:d-none" data-go="home">
+        <svg class="bi" width="24" height="24" aria-hidden="true"><use href="#logo"/></svg>
+        냉파고
+      </button>
+      <button class="btn-icon navbar-toggler" type="button" id="drawer-open" aria-controls="drawer" aria-label="메뉴 열기">
+        <span class="navbar-toggler-icon" aria-hidden="true"></span>
+      </button>
+      <dialog class="drawer drawer-end" tabindex="-1" id="drawer" aria-labelledby="drawerLabel">
+        <div class="drawer-header">
+          <h5 class="drawer-title" id="drawerLabel">냉파고</h5>
+          <button type="button" class="btn-close" id="drawer-close" aria-label="닫기"></button>
+        </div>
+        <div class="drawer-body">
+          <!-- 진행 단계(재료 → 모드 → 추천)와 메뉴를 한 줄로 -->
+          <ul class="navbar-nav flex-grow-1 justify-content-between nav-links" id="stepper">
+            <li class="nav-item"><button class="nav-link" data-go="home" aria-label="냉파고 홈">
+              <svg class="bi" width="24" height="24" aria-hidden="true"><use href="#logo"/></svg>
+            </button></li>
+            <li class="nav-item" data-step="fridge"><button class="nav-link" data-go="fridge"><i>1</i>재료 담기</button></li>
+            <li class="nav-item" data-step="mode"><button class="nav-link" data-go="mode"><i>2</i>상황 고르기</button></li>
+            <li class="nav-item" data-step="result"><button class="nav-link" data-go="result"><i>3</i>요리 추천</button></li>
+            <li class="nav-item"><button class="nav-link" data-go="lab">데이터랩</button></li>
+            <li class="nav-item"><button class="nav-link" data-go="about">서비스 소개</button></li>
+            <li class="nav-item"><button class="nav-link nav-basket" data-go="fridge" aria-label="내 냉장고">
+              <svg class="bi" width="24" height="24" aria-hidden="true"><use href="#icon-basket"/></svg>
+              <span class="nav-count" id="nav-count" data-zero>0</span>
+            </button></li>
+          </ul>
+        </div>
+      </dialog>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ================= ① 홈 ================= -->
+    <section class="screen" id="screen-home">
+      <!-- 표지: 화면 높이에 꽉 차게, 크기는 화면 너비에 맞춰 자동 조절 -->
+      <div class="cover position-relative overflow-hidden md:m-3 text-center bg-subtle-secondary">
+        <div class="cover-copy">
+          <div class="cover-mascot" data-img="img/mascot_main.png"><span class="emoji-fallback">🧊</span></div>
+          <p class="eyebrow">자취생 생존 요리 추천</p>
+          <h1 class="cover-title fw-bold">냉장고 털 각 나왔다</h1>
+          <p class="cover-sub fg-secondary text-pretty">남은 재료만 고르면 식약처 공공데이터와 AI 레시피로 <br class="cover-br">지금 바로 만들 수 있는 요리를 찾아드려요</p>
+          <div class="d-flex gap-3 justify-content-center flex-wrap cover-links">
+            <button class="icon-link" data-go="fridge">
+              냉장고 털러 가기
+              <svg class="bi" aria-hidden="true"><use href="#chevron-right"/></svg>
+            </button>
+            <button class="icon-link" data-go="about">
+              어떻게 추천하나요?
+              <svg class="bi" aria-hidden="true"><use href="#chevron-right"/></svg>
+            </button>
+          </div>
+        </div>
+        <!-- 기울어진 기기 두 대 (넓은 화면에서만) -->
+        <div class="product-device cover-device" aria-hidden="true">
+          <div class="device-screen" data-img="img/mascot_main.png"><span class="emoji-fallback">🧊</span></div>
+        </div>
+        <div class="product-device product-device-2 cover-device" aria-hidden="true">
+          <div class="device-screen light"><span>🥚</span><span>🧅</span><span>🥬</span><span>🍅</span></div>
+        </div>
+      </div>
+
+      <!-- ===== 스크롤하면: 서비스 소개 ===== -->
+      <section class="home-section" id="home-about">
+        <div class="home-head">
+          <span class="step-badge">ABOUT</span>
+          <h2 class="fs-3xl fw-light">냉파고는 이렇게 추천해요</h2>
+          <p class="fs-lg fw-light fg-secondary">모든 추천은 데이터로 계산되고, 출처를 숨기지 않아요.</p>
+        </div>
+      <div class="md:d-flex md:flex-equal w-100 md:my-3 md:ps-3">
+        <div class="about-panel bg-black fg-white md:me-3">
+          <span class="step-no">1</span><h3 class="fs-2xl fw-light">재료 담기</h3>
+          <p>칩을 누르거나, 말하거나, 사진을 올려 냉장고 재료를 담아요. 빨리 써야 하는 재료는 ⏰로 표시해요.</p>
+        </div>
+        <div class="about-panel bg-subtle-secondary md:me-3">
+          <span class="step-no">2</span><h3 class="fs-2xl fw-light">상황 고르기</h3>
+          <p>월급 전 생존 · 오늘은 셰프 · 요리 초보 · 설거지 최소. 오늘 내 상황에 맞춰 추천 기준이 바뀌어요.</p>
+        </div>
+        <div class="about-panel theme-primary theme-contrast md:me-3">
+          <span class="step-no">3</span><h3 class="fs-2xl fw-light">바로 만들기</h3>
+          <p>가진 재료로 <b>전부</b> 만들 수 있는 요리만 먼저 보여주고, 1개만 부족한 요리는 따로 알려줘요.</p>
+        </div>
+      </div>
+      <div class="md:d-flex md:flex-equal w-100 md:my-3 md:ps-3">
+        <div class="about-panel bg-subtle-secondary md:me-3">
+          <span class="src-badge">🏛 공공데이터</span>
+          <p>식품의약품안전처 식품안전나라 「조리식품의 레시피 DB」 Open API로 레시피를 수집·정제했어요.</p>
+        </div>
+        <div class="about-panel bg-subtle-secondary md:me-3">
+          <span class="src-badge">🤖 AI 레시피</span>
+          <p>공공데이터가 다루지 않는 자취 조합(예: 스팸+양파)을 생성형 AI로 보완했어요.</p>
+        </div>
+        <div class="about-panel bg-subtle-secondary md:me-3">
+          <span class="src-badge">⚡ 교내 GPU</span>
+          <p>캐릭터는 교내 GPU(틸론)에서 SDXL-Turbo로 직접 생성했어요.</p>
+        </div>
+      </div>
+            </section>
+
+      <!-- ===== 스크롤하면: 데이터랩 ===== -->
+      <section class="home-section" id="home-lab">
+        <div class="home-head">
+          <span class="step-badge">DATA LAB</span>
+          <h2 class="fs-3xl fw-light">📊 데이터랩</h2>
+          <p class="fs-lg fw-light fg-secondary" id="lab-summary">레시피 데이터를 분석한 결과예요.</p>
+        </div>
+      <div class="md:d-flex md:flex-equal w-100 md:ps-3 lab-row">
+        <div class="lab-card bg-subtle-secondary md:me-3">
+          <h3>가장 많은 요리를 여는 재료 TOP10</h3>
+          <div id="bar-list" class="bar-list"></div>
+          <p class="help small">막대 길이 = 그 재료가 들어가는 레시피 수</p>
+        </div>
+        <div class="lab-card bg-black fg-white md:me-3">
+          <h3>자취 요리 단골 조합 TOP5</h3>
+          <ol id="pair-list" class="pair-list"></ol>
+        </div>
+        <div class="lab-card bg-subtle-secondary md:me-3">
+          <h3>모드별 레시피 분포</h3>
+          <div class="donut-row">
+            <canvas id="chart-mode" width="150" height="150"></canvas>
+            <ul id="mode-legend" class="legend"></ul>
+          </div>
+        </div>
+      </div>
+            </section>
+
+      <div class="screen-foot center home-cta"><button class="btn-solid theme-primary btn-lg" data-go="fridge">냉장고 털러 가기 →</button></div>
+    </section>
+
+    <!-- ================= ② 재료 담기 ================= -->
+    <section class="screen hidden" id="screen-fridge">
+      <div class="screen-band bg-subtle-secondary md:m-3">
+        <span class="step-badge">STEP 1</span>
+        <h2 class="fs-3xl fw-light">냉장고에 뭐 있어?</h2>
+        <p class="fs-lg fw-light fg-secondary">가지고 있는 재료를 모두 담아주세요. 빨리 써야 하는 재료는 한 번 더 눌러 ⏰ 표시해요.</p>
+      </div>
+      <div class="container container-app">
+        <div class="fridge-layout">
+          <div class="panel">
+            <div class="segment">
+              <button class="seg active" data-tab="pick">👆 고르기</button>
+              <button class="seg" data-tab="voice">🎤 말하기</button>
+              <button class="seg" data-tab="photo">📷 사진</button>
+            </div>
+
+            <div class="tab-panel" id="panel-pick">
+              <div class="search-box">
+                <input class="form-control" id="search-input" list="ingredient-list" placeholder="목록에 없으면 검색해서 담기 (예: 장어)">
+                <datalist id="ingredient-list"></datalist>
+                <button class="btn-solid theme-primary search-add" id="search-add">담기</button>
+              </div>
+              <div class="cat-tabs" id="cat-tabs"></div>
+              <div class="chips big-chips" id="chip-list"></div>
+            </div>
+
+            <div class="tab-panel hidden" id="panel-voice">
+              <div class="center-box">
+                <div class="voice-icon">🎤</div>
+                <p class="help">버튼을 누르고 <b>"계란이랑 두부, 대파 있어"</b>처럼 말해보세요. (크롬 권장)</p>
+                <button class="btn-solid theme-primary btn-lg" id="voice-btn">🎤 말하기 시작</button>
+                <p class="voice-text" id="voice-text"></p>
+              </div>
+            </div>
+
+            <div class="tab-panel hidden" id="panel-photo">
+              <div class="center-box">
+                <p class="help">냉장고 사진을 올리면 AI가 재료를 찾아줘요. 결과는 꼭 확인하고 담아주세요.</p>
+                <div class="btn-row">
+                  <label class="btn-solid theme-primary">📷 사진 올리기<input type="file" id="photo-input" accept="image/*" capture="environment" hidden></label>
+                  <button class="btn-outline theme-secondary" id="demo-photo-btn">예시 사진으로 체험하기</button>
+                </div>
+                <img id="photo-preview" class="photo-preview hidden" alt="냉장고 사진 미리보기">
+                <p class="help" id="photo-status"></p>
+                <div id="photo-result" class="chips justify-content-center"></div>
+                <button class="btn-outline theme-secondary hidden mt-3" id="photo-add-btn">인식된 재료 담기</button>
+              </div>
+            </div>
+          </div>
+
+          <aside class="basket-col">
+            <div class="basket">
+              <div class="basket-head">
+                <b>내 냉장고 <span class="count" id="basket-count">0</span></b>
+                <button class="link" id="basket-clear">비우기</button>
+              </div>
+              <p class="hint">재료를 누르면 <span class="hl">⏰ 빨리 써요</span> 표시 → 우선 추천</p>
+              <div id="basket" class="chips"></div>
+              <label class="pantry-toggle"><input type="checkbox" id="pantry-check" checked> 기본 양념(소금·간장·설탕·기름 등)은 있어요</label>
+            </div>
+            <div class="preview-box" id="preview-box">재료를 담으면 만들 수 있는 요리 수를 알려드려요</div>
+            <button class="btn-solid theme-primary btn-lg w-100 mt-3" id="to-mode">다음: 상황 고르기 →</button>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ③ 상황(모드) 고르기 ================= -->
+    <section class="screen hidden" id="screen-mode">
+      <div class="screen-band bg-subtle-secondary md:m-3">
+        <span class="step-badge">STEP 2</span>
+        <h2 class="fs-3xl fw-light">오늘 상태는?</h2>
+        <p class="fs-lg fw-light fg-secondary">카드를 누르면 바로 추천 결과로 넘어가요.</p>
+      </div>
+      <div class="mode-big-row md:ps-3" id="mode-grid"></div>
+      <div class="container container-app">
+        <div class="screen-foot">
+          <button class="btn-outline theme-secondary btn-lg" data-go="fridge">← 재료 다시 고르기</button>
+          <button class="btn-solid theme-primary btn-lg" data-mode="all">✨ 그냥 전체 추천받기</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ④ 추천 결과 ================= -->
+    <section class="screen hidden" id="screen-result">
+      <div class="container container-app result-layout">
+        <aside class="result-side">
+          <div class="panel">
+            <span class="step-badge">STEP 3</span>
+            <h3 class="side-title" id="result-mode-title">추천 결과</h3>
+            <p class="side-label">내 냉장고</p>
+            <div class="chips small" id="side-basket"></div>
+            <button class="btn-outline theme-secondary btn-sm w-100 mt-3" data-go="fridge">재료 수정하기</button>
+            <p class="side-label">모드 바꾸기</p>
+            <div class="mode-pills" id="mode-pills"></div>
+          </div>
+        </aside>
+        <div class="result-main">
+          <div id="one-more" class="one-more hidden"></div>
+          <div id="result-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ⑤ 레시피 상세 ================= -->
+    <section class="screen hidden" id="screen-detail">
+      <div class="container container-app">
+        <button class="back-link" data-go="result">← 추천 목록으로</button>
+        <div id="detail"></div>
+        <div class="screen-foot">
+          <button class="btn-outline theme-secondary btn-lg" data-go="result">목록으로</button>
+          <button class="btn-solid theme-primary btn-lg" id="done-btn">다 만들었어요! 🎉</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ⑥ 구조 리포트 ================= -->
+    <section class="screen hidden" id="screen-report">
+      <div class="container report-wrap">
+        <div id="report-card" class="report-card"></div>
+        <div class="screen-foot center">
+          <button class="btn-outline theme-secondary" id="save-report">📸 이미지 저장</button>
+          <button class="btn-solid theme-primary" id="again-btn">🔁 남은 재료로 또</button>
+          <button class="btn-outline theme-secondary" data-go="home">처음으로</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= 푸터 (Product 예제 형태) ================= -->
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 md:col">
+        <svg class="d-block mb-2" width="24" height="24" role="img" aria-label="냉파고"><use href="#logo"/></svg>
+        <small class="d-block mb-1 fw-semibold">냉파고</small>
+        <small class="d-block mb-3 fg-2">© 2026 · 남은 재료로 돈 안 쓰는 한 끼</small>
+      </div>
+      <div class="col-6 md:col">
+        <h5>냉털하기</h5>
+        <ul class="list-unstyled">
+          <li><button class="foot-link" data-go="fridge">재료 담기</button></li>
+          <li><button class="foot-link" data-go="mode">상황 고르기</button></li>
+          <li><button class="foot-link" data-go="result">요리 추천</button></li>
+        </ul>
+      </div>
+      <div class="col-6 md:col">
+        <h5>알아보기</h5>
+        <ul class="list-unstyled">
+          <li><button class="foot-link" data-go="lab">데이터랩</button></li>
+          <li><button class="foot-link" data-go="about">서비스 소개</button></li>
+        </ul>
+      </div>
+      <div class="col-12 md:col-5">
+        <h5>데이터 안내</h5>
+        <p class="footer-note">레시피 출처: 식품의약품안전처 식품안전나라 조리식품의 레시피 DB · AI 레시피는 생성형 AI가 작성했으며 실제와 다를 수 있어요 · 가격은 예시 값이에요</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="app-toast hidden"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <!-- html2canvas-pro: Bootstrap 6의 oklch 색상도 이미지로 저장 가능 -->
+  <script src="vendor/html2canvas-pro.min.js"></script>
+  <script src="data/data.js"></script>
+  <script src="js/web.js"></script>
+</body>
+</html>
